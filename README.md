@@ -10,3 +10,7 @@
 
 - $`python manage.py runserver 0:8000`
 - visit http://0.0.0.0:8000/
+
+### Add Application (All Ready add!)
+
+- $`python3 manage.py startapp app`
