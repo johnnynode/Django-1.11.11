@@ -6,6 +6,27 @@
 - Python 3.6
 - Django 1.11.11
 
+### 项目结构
+
+```tree
+Django-1.11.11/
+├── manage.py
+├── DjangoApp
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── app
+    ├── admin.py
+    ├── apps.py
+    ├── __init__.py
+    ├── migrations
+    │   └── __init__.py
+    ├── models.py
+    ├── tests.py
+    └── views.py
+```
+
 ### 项目创建时使用的命令
 
 - $ `django-admin startproject DjangoApp`
