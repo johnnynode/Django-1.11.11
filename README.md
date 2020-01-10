@@ -62,3 +62,4 @@ Django-1.11.11/
 ### 数据库文件
 
 - 详见`mydb.sql`
+- 导入数据库后, 在DjangoApp/settings.py下修改自己连接数据库的密码即可
