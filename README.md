@@ -23,8 +23,21 @@
     * 这样启动，通过`0`可以进行远程访问, 并且在settigns.py中ALLOWED_HOSTS添加自己的ip地址, 或支持所有 ALLOWED_HOSTS = ['*']
     * runserver只能在本机使用, 是Django自带的http服务
     * 部署时应使用uwsgi
-    * visit http://0.0.0.0:8000/
 
-### Add Application 添加应用
+### Add Application 添加的应用
 
 - $`python3 manage.py startapp app`
+
+### 可访问页面
+
+- http://0.0.0.0:8000/app/
+- http://0.0.0.0:8000/admin/
+
+### admin登录密码
+
+- 用户名: `johnny`
+- 密码: `123456_admin`
+
+### 数据库文件
+
+- 详见mysql.sql
